@@ -19,9 +19,9 @@ function fgets_u($pStdn)
 $nickname = "WhatsAPI Test";
 
 // #### DO NOT ADD YOUR INFO AND THEN COMMIT THIS FILE! ####
-$sender = 	""; // Mobile number with country code (but without + or 00)
-$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc)
-$password =     ""; // Password you received from WhatsApp
+$sender = 	""; // 4369910271021
+$imei = 	""; // 44:D8:84:2D:8C:DB
+$password =     ""; // 582-759
 
 if ($argc < 2) {
     echo "USAGE: ".$_SERVER['argv'][0]." [-l] [-s <phone> <message>] [-i <phone>] [-set <status>]\n";
